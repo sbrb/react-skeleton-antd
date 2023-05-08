@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+.card_skeleton {
+  border: 1px solid #d1d1d1;
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  padding: .3rem;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.detail_skeleton {
+  margin: 1rem;
+}
+
+.lower_skeleton {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: flex-end !important;
+  margin-left: 11rem;
+  align-items: center;
+}
