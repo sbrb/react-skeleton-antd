@@ -31,7 +31,6 @@
 }
 
 /* Media Query */
-
 @media only screen and (max-width: 830px) {
   .card_skeleton {
     width: 90% !important;
@@ -56,6 +55,22 @@
 
 @media only screen and (max-width: 700px) {
   .skeleton_img {
-    width: 99% !important;
+    width: 100% !important;
+  }
+
+  .card_skeleton {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .lower_skeleton {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .skeleton_button{
+    margin-right: 2rem;
   }
 }

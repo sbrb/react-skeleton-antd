@@ -31,20 +31,22 @@ function CardSkeleton({ cards }) {
               </Skeleton>
             </div>
             <div className="lower_skeleton">
-              <Skeleton
-                active
-                loading={true}
-                title={false}
-                paragraph={{
-                  rows: 1,
-                  width: 111,
-                }}
-                style={{
-                  marginRight: "1rem",
-                }}
-              >
-                <p>Data is here</p>
-              </Skeleton>
+              <div>
+                <Skeleton
+                  active
+                  loading={true}
+                  title={false}
+                  paragraph={{
+                    rows: 1,
+                    width: 111,
+                  }}
+                  style={{
+                    marginRight: "1rem",
+                  }}
+                >
+                  <p>Data is here</p>
+                </Skeleton>
+              </div>
 
               <Skeleton.Button
                 active
