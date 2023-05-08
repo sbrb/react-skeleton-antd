@@ -67,10 +67,11 @@
 
   .lower_skeleton {
     display: flex;
-    margin-top: 3rem;
+    margin-top: .5rem;
     align-items: center;
     width: 100%;
     justify-content: flex-end;
+    margin-bottom: -.7rem !important;
   }
   .skeleton_button{
     margin-right: 2rem;
