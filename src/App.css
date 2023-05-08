@@ -17,8 +17,6 @@
   margin-top: 1rem;
 }
 
-
-
 .detail_skeleton {
   margin: 1rem;
 }
@@ -75,5 +73,11 @@
   }
   .skeleton_button{
     margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  .skeleton_button {
+    margin-right: 1.5rem;
   }
 }

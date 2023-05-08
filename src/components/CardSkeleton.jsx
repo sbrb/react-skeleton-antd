@@ -24,7 +24,7 @@ function CardSkeleton({ cards }) {
                 title={{ width: 100 }}
                 paragraph={{
                   rows: 5,
-                  width: [170, 290, 310, 220, 120],
+                  width: [170, 280, 300, 220, 120],
                 }}
               >
                 <p>Data is here</p>
