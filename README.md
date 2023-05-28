@@ -1,1 +1,1 @@
-# react-skeleton-antd
+# https://react-skeleton-antd.netlify.app/
